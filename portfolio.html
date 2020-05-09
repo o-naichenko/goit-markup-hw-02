@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Portfolio</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -14,20 +14,24 @@
     <!-- header -->
     <header>
       <nav>
-        <a class="logo" lang="en" href="">Web <span class="studio">Studio</span></a>
+        <a class="logo" lang="en" href="./index.html"
+          >Web <span class="studio">Studio</span></a
+        >
         <ul class="nav-list">
-          <li><a class="link" href="">Студия</a></li>
+          <li><a class="link" href="./index.html">Студия</a></li>
           <li><a class="link" href="./portfolio.html">Портфолио</a></li>
           <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
       <address class="address">
-        <a class="link" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="link" lang="en" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
         <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </header>
     <main>
-      <section>
+      <section class="gallery">
         <!-- filter -->
         <ul class="filter">
           <li><button class="button">Все</button></li>
@@ -48,8 +52,8 @@
                 alt="изображение сайта на экране ноутбука"
               />
               <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
-              <p>
+              <p class="type">Веб-сайт</p>
+              <p class="description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
@@ -68,10 +72,10 @@
               <h2>
                 Постер New Orlean vs Golden Stars
               </h2>
-              <p>
+              <p class="type">
                 Дизайн
               </p>
-              <p>
+              <p class="description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
@@ -88,8 +92,8 @@
                 alt="логотип ресторана"
               />
               <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
-              <p>
+              <p class="type">Приложение</p>
+              <p class="description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
@@ -106,8 +110,8 @@
                 alt="беспроводные наушники"
               />
               <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
-              <p>
+              <p class="type">Маркетинг</p>
+              <p class="description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
@@ -124,8 +128,8 @@
                 alt="две коробки"
               />
               <h2>Проект Boxes</h2>
-              <p>Приложение</p>
-              <p>
+              <p class="type">Приложение</p>
+              <p class="description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
@@ -142,8 +146,8 @@
                 alt="веб-сайт на экране компьютера"
               />
               <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
-              <p>
+              <p class="type">Веб-сайт</p>
+              <p class="description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
@@ -160,13 +164,12 @@
                 alt="разворот глянцевого журнала"
               />
               <h2>Издание Limited Edition</h2>
-              <p></p>
-              <p>
+              <p class="type">Дизайн</p>
+              <p class="description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              >
             </a>
           </li>
           <!-- Проект LAB -->
@@ -179,8 +182,8 @@
                 alt="бирка с надписью лаб эль тэг"
               />
               <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
-              <p>
+              <p class="type">Маркетинг</p>
+              <p class="description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
@@ -197,8 +200,8 @@
                 alt="сайт компании на экране ноутбука"
               />
               <h2>Growing Business</h2>
-              <p>Приложение</p>
-              <p>
+              <p class="type">Приложение</p>
+              <p class="description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
@@ -208,15 +211,20 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div>
-        <a class="logo" lang="en" href="">Web <span>Studio</span></a>
+        <a class="logo-footer" lang="en" href="./index.html"
+          >Web <span class="studio">Studio</span></a
+        >
         <address>
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
+          <a class="link" lang="en" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
       </div>
+      <!-- присоединяйтесь -->
       <div>
         <b>присоединяйтесь</b>
         <ul>
@@ -248,10 +256,13 @@
               <a href="" aria-label="LinkedIn link">LinkedIn</a>
             </ul> -->
       </div>
+      <!-- подписаться на рассылку -->
       <div>
-        <!-- подписаться на рассылку -->
+        <b>Подпишитесь на рассылку</b>
+        <!-- e-mail -->
+        <button class="button">Подписаться</button>
       </div>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
