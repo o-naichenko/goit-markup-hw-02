@@ -51,6 +51,10 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.address .link:hover,
+.address .link:focus {
+  color: var(--blue-color);
+}
 /* hero-section */
 .hero-section {
   background-color: rgba(47, 48, 58, 0.8);;
