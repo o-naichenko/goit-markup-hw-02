@@ -1,5 +1,6 @@
 :root {
-  --light-gray-color: #757575;
+  --light-gray-color: #f5f4fa;
+  --gray-color: #757575;
   --dark-gray-color: #212121;
   --blue-color: #2196f3;
   --white-color: #ffffff;
@@ -23,10 +24,11 @@ a {
   letter-spacing: 0.03em;
 }
 /* header */
-.header-box {
+.header-container {
   outline: 2px solid yellowgreen;
   /* display: inline-block; */
-  width: 1200px;
+  width: 1230px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .logo {
@@ -55,7 +57,7 @@ a {
   color: var(--blue-color);
 }
 .address .link {
-  color: var(--light-gray-color);
+  color: var(--gray-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -69,6 +71,7 @@ a {
 /* hero-section */
 .hero-section {
   background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
 }
 .hero {
   color: var(--white-color);
@@ -86,14 +89,28 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+
+  display: inline-block;
   padding: 10px 32px;
   border-color: var(--blue-color);
   border: 0;
   border-radius: 4px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin-top: 46px;
 }
 /* advanatages */
+.advantages {
+  margin-top: 94px;
+}
+.advantage-logo {
+  padding: 25px 104px;
+  background-color: var(--light-gray-color);
+  border: 0;
+  border-radius: 4px;
+  /* outline: 2px solid tomato; */
+}
 .hidden {
   display: none;
 }
@@ -104,13 +121,17 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 30px;
+  /* outline: 2px solid tomato; */
 }
 .advantages p {
-  color: var(--light-gray-color);
+  color: var(--gray-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  display: inline-block;
+  width: 278 px;
 }
 /* чем мы занимаемся */
 .our-works h3 {
@@ -131,7 +152,7 @@ a {
   letter-spacing: 0.03em;
 }
 .team p {
-  color: var(--light-gray-color);
+  color: var(--gray-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -220,7 +241,7 @@ a {
   letter-spacing: 0.06em;
 }
 .type {
-  color: var(--light-gray-color);
+  color: var(--gray-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
